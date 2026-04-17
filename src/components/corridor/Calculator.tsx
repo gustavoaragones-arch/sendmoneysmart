@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
-import { calculateTransfer, Corridor, TransferResult, formatCurrency, formatCost, buildAffiliateUrl } from '@/lib/calculator';
+import { useState, useMemo } from 'react';
+import { calculateTransfer, Corridor, formatCurrency, formatCost, buildAffiliateUrl } from '@/lib/calculator';
 import AffiliateCTA from '@/components/ui/AffiliateCTA';
 import { Clock } from 'lucide-react';
 
@@ -12,32 +12,21 @@ interface CalculatorProps {
 export default function Calculator({ corridor }: CalculatorProps) {
   const [amount, setAmount] = useState(corridor.typical_amount);
   const [inputValue, setInputValue] = useState(String(corridor.typical_amount));
-  const [results, setResults] = useState<TransferResult[]>([]);
   const [animKey, setAnimKey] = useState(0);
 
-  const recalculate = useCallback(
-    (val: number) => {
-      const res = calculateTransfer(val, corridor, corridor.popular_providers);
-      setResults(res);
+  const results = useMemo(() => {
+    if (!amount || amount <= 0) return [];
+    return calculateTransfer(amount, corridor, corridor.popular_providers);
+  }, [amount, corridor]);
+
+  const handleInputChange = (value: string) => {
+    setInputValue(value);
+    const parsed = parseFloat(value);
+    if (!isNaN(parsed) && parsed > 0) {
+      setAmount(parsed);
       setAnimKey((k) => k + 1);
-    },
-    [corridor]
-  );
-
-  useEffect(() => {
-    recalculate(corridor.typical_amount);
-  }, [corridor, recalculate]);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      const parsed = parseFloat(inputValue);
-      if (!isNaN(parsed) && parsed > 0) {
-        setAmount(parsed);
-        recalculate(parsed);
-      }
-    }, 300);
-    return () => clearTimeout(timer);
-  }, [inputValue, recalculate]);
+    }
+  };
 
   return (
     <div
@@ -61,7 +50,7 @@ export default function Calculator({ corridor }: CalculatorProps) {
               type="number"
               min={1}
               value={inputValue}
-              onChange={(e) => setInputValue(e.target.value)}
+              onChange={(e) => handleInputChange(e.target.value)}
               className="w-full pl-14 pr-4 py-3 rounded-lg text-lg font-bold outline-none focus:ring-2 transition-all"
               style={{
                 backgroundColor: 'var(--bg-elevated)',

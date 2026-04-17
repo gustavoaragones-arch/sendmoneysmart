@@ -100,8 +100,8 @@
     "trust_stat": "No transfer fees, ever",
     "regulated": true,
     "cash_pickup": false,
-    "min_transfer": 1000,
+    "min_transfer": 1,
     "max_transfer": 1000000,
-    "description": "Best for large transfers over $1,000"
+    "description": "Best for transfers over CAD $1,000 — no transfer fees"
   }
 }
