@@ -1,0 +1,274 @@
+{
+  "canada-to-india": {
+    "slug": "canada-to-india",
+    "from_country": "Canada",
+    "to_country": "India",
+    "from_code": "CA",
+    "to_code": "IN",
+    "currency_from": "CAD",
+    "currency_to": "INR",
+    "currency_symbol_to": "₹",
+    "flag_from": "🇨🇦",
+    "flag_to": "🇮🇳",
+    "popular_providers": ["wise", "remitly", "western_union", "xoom", "ofx"],
+    "cash_pickup_providers": ["remitly", "western_union"],
+    "seo_volume": "high",
+    "typical_amount": 500,
+    "typical_amount_label": "CAD 500",
+    "h1": "Best Way to Send Money from Canada to India (2026)",
+    "direct_answer": "The cheapest way to send money from Canada to India is typically Wise — they use the real mid-market exchange rate with fees as low as $4.50 CAD on a $500 transfer. For speed, Remitly delivers in minutes. For cash pickup, Western Union or Remitly work best.",
+    "meta_title": "Send Money Canada to India — Best Rates 2026 | SendMoneySmart",
+    "meta_description": "Compare Wise, Remitly, Western Union and more. Find the cheapest way to send money from Canada to India. Save up to $18 per transfer. Updated 2026.",
+    "related_corridors": ["canada-to-philippines", "canada-to-china", "usa-to-india"],
+    "faq": [
+      {
+        "q": "What is the cheapest way to send money from Canada to India?",
+        "a": "Wise is typically the cheapest option for bank-to-bank transfers from Canada to India, thanks to their mid-market exchange rate and low percentage-based fees. On a $500 CAD transfer, total costs are usually under $5 CAD."
+      },
+      {
+        "q": "Is Wise better than Western Union for Canada to India?",
+        "a": "For bank transfers, yes — Wise is significantly cheaper than Western Union because Wise uses the real exchange rate with no margin. Western Union adds a 2–3% FX margin on top of their transfer fee. For cash pickup, Western Union has more agent locations in India."
+      },
+      {
+        "q": "How long does it take to send money from Canada to India?",
+        "a": "Transfer times vary by provider: Wise takes 1–2 business days, Remitly can deliver in minutes to hours, and Western Union offers near-instant transfers for cash pickup."
+      },
+      {
+        "q": "What is the maximum amount I can send from Canada to India?",
+        "a": "Most providers allow transfers up to $50,000–$1,000,000 CAD, but large transfers may require additional documentation. Wise supports up to $1,000,000 CAD. Check your provider's limits for your specific amount."
+      },
+      {
+        "q": "Do I need to pay tax on money sent to India from Canada?",
+        "a": "Canada doesn't tax outbound remittances. In India, recipients typically don't pay tax on foreign remittances for personal transfers up to certain thresholds. Consult a tax professional for large or regular transfers."
+      },
+      {
+        "q": "Which app is best to send money from Canada to India?",
+        "a": "Wise and Remitly both have highly-rated mobile apps. Wise is best for low cost, Remitly is best for speed and cash pickup options across India."
+      },
+      {
+        "q": "What exchange rate should I expect for CAD to INR?",
+        "a": "The mid-market rate is the 'real' rate you see on Google. Wise passes this rate directly to you. Other providers like Western Union and Xoom apply a margin of 1.5–3% above the mid-market rate, which can cost $15–$30 on a $500 transfer."
+      }
+    ]
+  },
+  "canada-to-philippines": {
+    "slug": "canada-to-philippines",
+    "from_country": "Canada",
+    "to_country": "Philippines",
+    "from_code": "CA",
+    "to_code": "PH",
+    "currency_from": "CAD",
+    "currency_to": "PHP",
+    "currency_symbol_to": "₱",
+    "flag_from": "🇨🇦",
+    "flag_to": "🇵🇭",
+    "popular_providers": ["wise", "remitly", "western_union", "xoom"],
+    "cash_pickup_providers": ["remitly", "western_union"],
+    "seo_volume": "high",
+    "typical_amount": 500,
+    "typical_amount_label": "CAD 500",
+    "h1": "Best Way to Send Money from Canada to Philippines (2026)",
+    "direct_answer": "Wise offers the lowest fees for bank transfers from Canada to the Philippines. Remitly is fastest, often delivering in minutes. For cash pickup at SM, Palawan, or LBC branches, Western Union and Remitly both work well.",
+    "meta_title": "Send Money Canada to Philippines — Best Rates 2026 | SendMoneySmart",
+    "meta_description": "Compare Wise, Remitly, Western Union for Canada to Philippines transfers. Find the cheapest rates updated for 2026. Save on every transfer.",
+    "related_corridors": ["canada-to-india", "canada-to-china", "usa-to-philippines"],
+    "faq": [
+      {
+        "q": "What is the cheapest way to send money from Canada to Philippines?",
+        "a": "Wise consistently offers the lowest total cost for bank-to-bank transfers from Canada to the Philippines, using the mid-market rate with low fees."
+      },
+      {
+        "q": "Can I send money for cash pickup in the Philippines from Canada?",
+        "a": "Yes. Remitly and Western Union both offer extensive cash pickup networks in the Philippines, including SM malls, Palawan Express, and LBC branches."
+      },
+      {
+        "q": "How fast can I send money from Canada to Philippines?",
+        "a": "Remitly offers delivery in minutes for express transfers. Wise typically takes 1–2 business days for bank deposits."
+      },
+      {
+        "q": "What exchange rate should I expect for CAD to PHP?",
+        "a": "The mid-market CAD/PHP rate is what you see on Google. Wise passes this rate through with minimal margin. Remitly and Western Union typically apply a 1.5–3% FX margin, which can cost $8–$15 extra on a $500 CAD transfer."
+      },
+      {
+        "q": "Is Western Union good for sending money to the Philippines from Canada?",
+        "a": "Western Union is a solid choice if the recipient needs cash pickup at SM malls, Palawan Express, or LBC. For direct bank deposits, Wise is significantly cheaper because it uses the real exchange rate."
+      }
+    ]
+  },
+  "canada-to-china": {
+    "slug": "canada-to-china",
+    "from_country": "Canada",
+    "to_country": "China",
+    "from_code": "CA",
+    "to_code": "CN",
+    "currency_from": "CAD",
+    "currency_to": "CNY",
+    "currency_symbol_to": "¥",
+    "flag_from": "🇨🇦",
+    "flag_to": "🇨🇳",
+    "popular_providers": ["wise", "ofx", "western_union", "xoom"],
+    "cash_pickup_providers": ["western_union"],
+    "seo_volume": "medium",
+    "typical_amount": 500,
+    "typical_amount_label": "CAD 500",
+    "h1": "Best Way to Send Money from Canada to China (2026)",
+    "direct_answer": "Wise and OFX are typically the cheapest ways to send money from Canada to China for bank transfers. OFX has no transfer fees on amounts over $1,000 CAD. For large transfers, OFX often wins on total cost.",
+    "meta_title": "Send Money Canada to China — Best Rates 2026 | SendMoneySmart",
+    "meta_description": "Compare Wise, OFX, Western Union for Canada to China money transfers. Find the lowest CAD to CNY rates. Updated 2026.",
+    "related_corridors": ["canada-to-india", "canada-to-philippines", "usa-to-india"],
+    "faq": [
+      {
+        "q": "What is the best way to send money from Canada to China?",
+        "a": "For amounts under $1,000 CAD, Wise is typically cheapest. For larger amounts over $1,000 CAD, OFX charges no transfer fees and competitive FX rates."
+      },
+      {
+        "q": "How do I send money to a Chinese bank account from Canada?",
+        "a": "You can send to Chinese bank accounts via SWIFT using Wise, OFX, or Western Union. Most providers support major Chinese banks including Bank of China, ICBC, and China Construction Bank. Note that direct WeChat Pay or Alipay transfers from foreign accounts are not widely supported by Western remittance providers."
+      },
+      {
+        "q": "What is the best CAD to CNY exchange rate?",
+        "a": "Wise provides the closest rate to the mid-market rate for CAD to CNY. OFX is competitive for transfers over $1,000 CAD with no flat fee. Western Union and Xoom apply a higher FX margin, typically 1.5–2.5% above mid-market."
+      },
+      {
+        "q": "How long does a Canada to China transfer take?",
+        "a": "Wise typically takes 1–3 business days for CAD to CNY transfers. OFX is 1–2 business days. Western Union can be near-instant for cash pickup, though cash pickup in China is more limited."
+      },
+      {
+        "q": "Is OFX better than Wise for Canada to China?",
+        "a": "For large transfers over $1,000 CAD, OFX can be cheaper because they charge no flat fee and offer competitive FX margins on larger amounts. For smaller amounts under $1,000, Wise's low percentage fee is typically the better choice."
+      }
+    ]
+  },
+  "usa-to-mexico": {
+    "slug": "usa-to-mexico",
+    "from_country": "USA",
+    "to_country": "Mexico",
+    "from_code": "US",
+    "to_code": "MX",
+    "currency_from": "USD",
+    "currency_to": "MXN",
+    "currency_symbol_to": "$",
+    "flag_from": "🇺🇸",
+    "flag_to": "🇲🇽",
+    "popular_providers": ["wise", "remitly", "western_union", "xoom"],
+    "cash_pickup_providers": ["remitly", "western_union", "xoom"],
+    "seo_volume": "very_high",
+    "typical_amount": 300,
+    "typical_amount_label": "USD 300",
+    "h1": "Best Way to Send Money from USA to Mexico (2026)",
+    "direct_answer": "Wise and Remitly are the cheapest options for USD to MXN transfers. Remitly frequently runs promotions for first-time senders — sometimes zero fees. Western Union is best for cash pickup at OXXO and other locations throughout Mexico.",
+    "meta_title": "Send Money USA to Mexico — Best Rates 2026 | SendMoneySmart",
+    "meta_description": "Compare Wise, Remitly, Xoom, Western Union for USA to Mexico transfers. Find the cheapest USD to MXN rates. Save $10–$20 per transfer.",
+    "related_corridors": ["usa-to-india", "usa-to-philippines", "canada-to-india"],
+    "faq": [
+      {
+        "q": "What is the cheapest way to send money from the USA to Mexico?",
+        "a": "Remitly and Wise are consistently the cheapest for USA to Mexico. Remitly often has first-transfer promotions with zero fees. Wise uses the mid-market rate."
+      },
+      {
+        "q": "Can I send money to OXXO in Mexico from the USA?",
+        "a": "Yes. Western Union and Remitly both support cash pickup at OXXO stores across Mexico."
+      },
+      {
+        "q": "How much does it cost to send $300 USD to Mexico?",
+        "a": "Using Wise or Remitly, you would typically pay $3–$5 USD in total fees on a $300 transfer. Western Union can cost $8–$15 depending on payment method. Remitly often runs first-transfer promotions with zero fees."
+      },
+      {
+        "q": "Can I send money to a BBVA or Banamex account in Mexico?",
+        "a": "Yes. All major providers including Wise, Remitly, Xoom, and Western Union support transfers to major Mexican banks including BBVA, Banamex (Citibanamex), HSBC, and Santander."
+      },
+      {
+        "q": "How fast does money arrive in Mexico from the USA?",
+        "a": "Remitly's Express option delivers in minutes. Wise typically takes a few hours to 1 business day. Western Union cash pickup is near-instant at agent locations."
+      }
+    ]
+  },
+  "usa-to-india": {
+    "slug": "usa-to-india",
+    "from_country": "USA",
+    "to_country": "India",
+    "from_code": "US",
+    "to_code": "IN",
+    "currency_from": "USD",
+    "currency_to": "INR",
+    "currency_symbol_to": "₹",
+    "flag_from": "🇺🇸",
+    "flag_to": "🇮🇳",
+    "popular_providers": ["wise", "remitly", "western_union", "xoom", "ofx"],
+    "cash_pickup_providers": ["remitly", "western_union"],
+    "seo_volume": "very_high",
+    "typical_amount": 500,
+    "typical_amount_label": "USD 500",
+    "h1": "Best Way to Send Money from USA to India (2026)",
+    "direct_answer": "Wise is the cheapest way to send money from the USA to India for bank deposits, offering the mid-market USD/INR rate. Remitly delivers in minutes. For large transfers over $1,000, OFX has no fees.",
+    "meta_title": "Send Money USA to India — Best Rates 2026 | SendMoneySmart",
+    "meta_description": "Compare Wise, Remitly, Xoom, OFX for USA to India transfers. Find the cheapest USD to INR exchange rates. Updated for 2026.",
+    "related_corridors": ["usa-to-philippines", "usa-to-mexico", "canada-to-india"],
+    "faq": [
+      {
+        "q": "What is the cheapest way to send money from USA to India?",
+        "a": "Wise is consistently the cheapest for bank transfers, offering the real USD/INR mid-market rate. On $500, total fees are typically under $4 USD."
+      },
+      {
+        "q": "Is Wise better than Xoom for USA to India transfers?",
+        "a": "Wise is typically cheaper because it uses the real mid-market USD/INR rate. Xoom (owned by PayPal) applies a higher FX margin of around 1.5–3%, which can cost $8–$15 extra on a $500 transfer. For speed, Xoom is sometimes faster with same-day delivery options."
+      },
+      {
+        "q": "What Indian banks does Remitly support?",
+        "a": "Remitly supports most major Indian banks including SBI, HDFC, ICICI, Axis Bank, Kotak Mahindra, and over 100 others for direct bank deposits."
+      },
+      {
+        "q": "How much does it cost to send $500 from the USA to India?",
+        "a": "With Wise, total cost is typically $3–$5 USD. With Remitly, it is $2–$6 USD depending on delivery speed. Western Union charges $8–$15 depending on payment method. OFX has no flat fee and is competitive for amounts over $1,000."
+      },
+      {
+        "q": "Can I send money to UPI or a PhonePe account in India from the USA?",
+        "a": "Most international providers send to Indian bank accounts using IFSC and SWIFT codes. Direct UPI transfers from foreign accounts are not widely supported. Your recipient can receive to a bank account that is already linked to their UPI app like PhonePe or Google Pay."
+      }
+    ]
+  },
+  "usa-to-philippines": {
+    "slug": "usa-to-philippines",
+    "from_country": "USA",
+    "to_country": "Philippines",
+    "from_code": "US",
+    "to_code": "PH",
+    "currency_from": "USD",
+    "currency_to": "PHP",
+    "currency_symbol_to": "₱",
+    "flag_from": "🇺🇸",
+    "flag_to": "🇵🇭",
+    "popular_providers": ["wise", "remitly", "western_union", "xoom"],
+    "cash_pickup_providers": ["remitly", "western_union"],
+    "seo_volume": "high",
+    "typical_amount": 300,
+    "typical_amount_label": "USD 300",
+    "h1": "Best Way to Send Money from USA to Philippines (2026)",
+    "direct_answer": "Remitly and Wise are the best options for sending money from the USA to the Philippines. Remitly is fastest (minutes) with strong cash pickup coverage. Wise is cheapest for bank deposits using the real USD/PHP rate.",
+    "meta_title": "Send Money USA to Philippines — Best Rates 2026 | SendMoneySmart",
+    "meta_description": "Compare Wise, Remitly, Western Union for USA to Philippines transfers. Best USD to PHP exchange rates. Cash pickup available. Updated 2026.",
+    "related_corridors": ["usa-to-india", "usa-to-mexico", "canada-to-philippines"],
+    "faq": [
+      {
+        "q": "What is the best app to send money to Philippines from USA?",
+        "a": "Remitly has the top-rated app for USA to Philippines with fast delivery and cash pickup at SM, Palawan, and LBC. Wise is best for low-cost bank deposits."
+      },
+      {
+        "q": "What exchange rate should I expect for USD to PHP?",
+        "a": "The mid-market USD/PHP rate is around 56–58 PHP per dollar. Wise passes through this rate with minimal margin. Western Union and Xoom typically apply a 1.5–3% FX margin, costing $9–$18 extra on a $300 USD transfer."
+      },
+      {
+        "q": "Can I send money directly to GCash in the Philippines from the USA?",
+        "a": "Yes. Remitly supports direct delivery to GCash mobile wallets in the Philippines, which is fast and convenient for recipients who prefer mobile money."
+      },
+      {
+        "q": "Is Remitly or Western Union better for Philippines remittances?",
+        "a": "Remitly is usually cheaper and faster for bank deposits and GCash delivery. Western Union is better if the recipient needs to collect cash in person at a local agent location."
+      },
+      {
+        "q": "How much does it cost to send $300 from the USA to the Philippines?",
+        "a": "With Wise, total fees are around $3–$5. With Remitly's Economy option, it can be as low as $2–$4. Western Union typically charges $5–$12 depending on payment method and delivery speed."
+      }
+    ]
+  }
+}
