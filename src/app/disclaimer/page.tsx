@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Disclaimer | SendMoneySmart',
   description: 'Disclaimer for SendMoneySmart. Rates shown are estimates for comparison purposes only.',
-  alternates: { canonical: 'https://sendmoneysmart.com/disclaimer/' },
+  alternates: { canonical: 'https://www.sendmoneysmart.com/disclaimer/' },
 };
 
 export default function DisclaimerPage() {

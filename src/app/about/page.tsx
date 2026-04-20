@@ -13,7 +13,7 @@ const aboutSchema = {
   '@context': 'https://schema.org',
   '@type': 'AboutPage',
   name: 'About SendMoneySmart',
-  url: 'https://sendmoneysmart.com/about',
+  url: 'https://www.sendmoneysmart.com/about/',
   description:
     'SendMoneySmart is a remittance comparison engine operated by Albor Digital LLC. We help immigrants and international senders find the cheapest way to send money abroad.',
   publisher: {

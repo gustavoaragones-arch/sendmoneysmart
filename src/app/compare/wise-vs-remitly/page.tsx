@@ -22,7 +22,7 @@ const pageSchema = {
     name: 'Albor Digital LLC',
     url: 'https://albor.digital',
   },
-  url: 'https://sendmoneysmart.com/compare/wise-vs-remitly',
+  url: 'https://www.sendmoneysmart.com/compare/wise-vs-remitly/',
 };
 
 const faqSchema = {

@@ -224,7 +224,7 @@ export default async function ProviderPage({ params }: PageProps) {
       name: 'Albor Digital LLC',
       url: 'https://albor.digital',
     },
-    url: `https://sendmoneysmart.com/providers/${content.slug}`,
+    url: `https://www.sendmoneysmart.com/providers/${content.slug}`,
   };
 
   const affiliateUrl = `${provider.affiliate_url}${provider.affiliate_params}provider-page`;

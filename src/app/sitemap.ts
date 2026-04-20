@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllCorridors } from '@/lib/calculator';
 
-const BASE_URL = 'https://sendmoneysmart.com';
+const BASE_URL = 'https://www.sendmoneysmart.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const corridors = getAllCorridors();

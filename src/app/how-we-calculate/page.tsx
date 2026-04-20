@@ -19,7 +19,7 @@ const methodologySchema = {
     name: 'Albor Digital LLC',
     url: 'https://albor.digital',
   },
-  url: 'https://sendmoneysmart.com/how-we-calculate',
+  url: 'https://www.sendmoneysmart.com/how-we-calculate/',
 };
 
 const howToSchema = {

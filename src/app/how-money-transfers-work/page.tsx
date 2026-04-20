@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'How International Money Transfers Work | SendMoneySmart',
   description: 'Learn how international money transfers work — exchange rates, FX margins, transfer fees, and how to find the cheapest way to send money abroad.',
-  alternates: { canonical: 'https://sendmoneysmart.com/how-money-transfers-work/' },
+  alternates: { canonical: 'https://www.sendmoneysmart.com/how-money-transfers-work/' },
 };
 
 const faqSchema = {

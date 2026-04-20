@@ -10,10 +10,22 @@ export const metadata: Metadata = {
   },
   description:
     'Compare Wise, Remitly, Western Union and more. Find the cheapest way to send money internationally. Real rates, no hidden fees.',
-  metadataBase: new URL('https://sendmoneysmart.com'),
+  metadataBase: new URL('https://www.sendmoneysmart.com'),
   openGraph: {
     siteName: 'SendMoneySmart',
     type: 'website',
+    url: 'https://www.sendmoneysmart.com',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 

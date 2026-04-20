@@ -1,6 +1,6 @@
 import { Corridor } from './calculator';
 
-const BASE_URL = 'https://sendmoneysmart.com';
+const BASE_URL = 'https://www.sendmoneysmart.com';
 
 export function generateCorridorSchema(corridor: Corridor) {
   const pageUrl = `${BASE_URL}/send-money/${corridor.slug}`;
@@ -87,7 +87,7 @@ export function generateHomeSchema() {
       email: 'contact@albor.digital',
       contactType: 'customer support',
     },
-    sameAs: ['https://sendmoneysmart.com'],
+    sameAs: ['https://www.sendmoneysmart.com'],
   };
 
   return { webSiteSchema, organizationSchema };

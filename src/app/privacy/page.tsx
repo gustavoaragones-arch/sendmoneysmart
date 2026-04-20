@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Privacy Policy | SendMoneySmart',
   description: 'Privacy Policy for SendMoneySmart, operated by Albor Digital LLC.',
-  alternates: { canonical: 'https://sendmoneysmart.com/privacy/' },
+  alternates: { canonical: 'https://www.sendmoneysmart.com/privacy/' },
 };
 
 export default function PrivacyPage() {

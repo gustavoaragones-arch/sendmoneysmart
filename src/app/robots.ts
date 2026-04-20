@@ -9,6 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/'],
       },
     ],
-    sitemap: 'https://sendmoneysmart.com/sitemap.xml',
+    sitemap: 'https://www.sendmoneysmart.com/sitemap.xml',
+    host: 'https://www.sendmoneysmart.com',
   };
 }

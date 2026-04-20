@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Terms of Use | SendMoneySmart',
   description: 'Terms of Service for SendMoneySmart, operated by Albor Digital LLC.',
-  alternates: { canonical: 'https://sendmoneysmart.com/terms/' },
+  alternates: { canonical: 'https://www.sendmoneysmart.com/terms/' },
 };
 
 export default function TermsPage() {
