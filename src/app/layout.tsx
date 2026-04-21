@@ -16,6 +16,10 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://www.sendmoneysmart.com',
   },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@sendmoneysmart',
+  },
   robots: {
     index: true,
     follow: true,

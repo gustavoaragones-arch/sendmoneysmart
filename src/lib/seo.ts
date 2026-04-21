@@ -3,7 +3,7 @@ import { Corridor } from './calculator';
 const BASE_URL = 'https://www.sendmoneysmart.com';
 
 export function generateCorridorSchema(corridor: Corridor) {
-  const pageUrl = `${BASE_URL}/send-money/${corridor.slug}`;
+  const pageUrl = `${BASE_URL}/send-money/${corridor.slug}/`;
 
   const faqSchema = corridor.faq
     ? {

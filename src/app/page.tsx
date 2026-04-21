@@ -1,8 +1,15 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getAllCorridors } from '@/lib/calculator';
 import { generateHomeSchema } from '@/lib/seo';
 import TrustBar from '@/components/ui/TrustBar';
 import { ArrowRight, Search, Calculator, Send, Shield, RefreshCw } from 'lucide-react';
+
+export const metadata: Metadata = {
+  title: 'SendMoneySmart — Find the Cheapest Way to Send Money Abroad',
+  description: 'Compare Wise, Remitly, Western Union and more. Real rates, no fluff.',
+  alternates: { canonical: 'https://www.sendmoneysmart.com/' },
+};
 
 export default function HomePage() {
   const corridors = getAllCorridors();

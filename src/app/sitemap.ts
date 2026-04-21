@@ -9,58 +9,88 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticPages: MetadataRoute.Sitemap = [
     {
-      url: BASE_URL,
+      url: `${BASE_URL}/`,
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 1.0,
     },
     {
-      url: `${BASE_URL}/about`,
+      url: `${BASE_URL}/how-money-transfers-work/`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
-      url: `${BASE_URL}/how-we-calculate`,
+      url: `${BASE_URL}/wise-vs-remitly/`,
       lastModified: now,
       changeFrequency: 'monthly',
-      priority: 0.7,
+      priority: 0.8,
     },
     {
-      url: `${BASE_URL}/compare/wise-vs-remitly`,
+      url: `${BASE_URL}/compare/wise-vs-remitly/`,
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${BASE_URL}/providers/wise`,
+      url: `${BASE_URL}/about/`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
-      url: `${BASE_URL}/providers/remitly`,
+      url: `${BASE_URL}/how-we-calculate/`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
-      url: `${BASE_URL}/providers/western-union`,
+      url: `${BASE_URL}/providers/wise/`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
-      url: `${BASE_URL}/providers/xoom`,
+      url: `${BASE_URL}/providers/remitly/`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/providers/western-union/`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/providers/xoom/`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.6,
     },
     {
-      url: `${BASE_URL}/providers/ofx`,
+      url: `${BASE_URL}/providers/ofx/`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.6,
+    },
+    {
+      url: `${BASE_URL}/privacy/`,
+      lastModified: now,
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
+    {
+      url: `${BASE_URL}/terms/`,
+      lastModified: now,
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
+    {
+      url: `${BASE_URL}/disclaimer/`,
+      lastModified: now,
+      changeFrequency: 'yearly',
+      priority: 0.3,
     },
   ];
 
