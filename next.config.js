@@ -5,39 +5,17 @@ const nextConfig = {
 
   async redirects() {
     return [
-      // 1. non-www HTTP → www HTTPS (catch all variants)
+      // 1. non-www → www (must be first)
       {
         source: '/:path*',
         has: [{ type: 'host', value: 'sendmoneysmart.com' }],
         destination: 'https://www.sendmoneysmart.com/:path*',
         permanent: true,
       },
-      // 2. Fix /compare/wise-vs-remitly — both slash variants (after trailingSlash)
+      // 2. /compare/* → /* — one rule for both slash variants
       {
-        source: '/compare/wise-vs-remitly',
-        destination: '/wise-vs-remitly/',
-        permanent: true,
-      },
-      {
-        source: '/compare/wise-vs-remitly/',
-        destination: '/wise-vs-remitly/',
-        permanent: true,
-      },
-      // 3. Catch other /compare/* paths crawled with wrong prefix
-      {
-        source: '/compare/:slug',
-        destination: '/:slug/',
-        permanent: true,
-      },
-      {
-        source: '/compare/:slug/',
-        destination: '/:slug/',
-        permanent: true,
-      },
-      // 4. Fix /how-money-transfers-work → canonical slug
-      {
-        source: '/how-money-transfers-work',
-        destination: '/how-money-transfers-work/',
+        source: '/compare/:slug*',
+        destination: '/:slug*/',
         permanent: true,
       },
     ];
