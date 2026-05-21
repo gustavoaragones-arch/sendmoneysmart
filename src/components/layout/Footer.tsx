@@ -42,16 +42,16 @@ export default function Footer() {
               <span className="font-semibold text-xs uppercase tracking-wider" style={{ color: 'var(--text-dim)' }}>
                 Compare
               </span>
-              <Link href="/send-money/canada-to-india" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
+              <Link href="/send-money/canada-to-india/" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
                 Canada → India
               </Link>
-              <Link href="/send-money/canada-to-philippines" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
+              <Link href="/send-money/canada-to-philippines/" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
                 Canada → Philippines
               </Link>
-              <Link href="/send-money/usa-to-mexico" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
+              <Link href="/send-money/usa-to-mexico/" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
                 USA → Mexico
               </Link>
-              <Link href="/send-money/usa-to-india" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
+              <Link href="/send-money/usa-to-india/" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
                 USA → India
               </Link>
             </div>
@@ -59,24 +59,27 @@ export default function Footer() {
               <span className="font-semibold text-xs uppercase tracking-wider" style={{ color: 'var(--text-dim)' }}>
                 Info
               </span>
-              <Link href="/how-money-transfers-work" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
+              <Link href="/how-money-transfers-work/" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
                 How It Works
               </Link>
-              <Link href="/wise-vs-remitly" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
+              <Link href="/wise-vs-remitly/" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
                 Wise vs Remitly
+              </Link>
+              <Link href="/transferwise/" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
+                TransferWise → Wise
               </Link>
             </div>
             <div className="flex flex-col gap-2">
               <span className="font-semibold text-xs uppercase tracking-wider" style={{ color: 'var(--text-dim)' }}>
                 Legal
               </span>
-              <Link href="/privacy" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
+              <Link href="/privacy/" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
                 Privacy Policy
               </Link>
-              <Link href="/terms" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
+              <Link href="/terms/" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
                 Terms of Use
               </Link>
-              <Link href="/disclaimer" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
+              <Link href="/disclaimer/" className="hover:text-white" style={{ color: 'var(--text-muted)' }}>
                 Disclaimer
               </Link>
             </div>

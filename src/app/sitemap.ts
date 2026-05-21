@@ -3,6 +3,8 @@ import { getAllCorridors } from '@/lib/calculator';
 
 const BASE_URL = 'https://www.sendmoneysmart.com';
 
+const PROVIDER_IDS = ['wise', 'remitly', 'western-union', 'xoom', 'ofx'];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const corridors = getAllCorridors();
   const now = new Date();
@@ -27,10 +29,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/compare/wise-vs-remitly/`,
+      url: `${BASE_URL}/transferwise/`,
       lastModified: now,
-      changeFrequency: 'weekly',
-      priority: 0.9,
+      changeFrequency: 'yearly',
+      priority: 0.6,
     },
     {
       url: `${BASE_URL}/about/`,
@@ -43,36 +45,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.7,
-    },
-    {
-      url: `${BASE_URL}/providers/wise/`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${BASE_URL}/providers/remitly/`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${BASE_URL}/providers/western-union/`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${BASE_URL}/providers/xoom/`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.6,
-    },
-    {
-      url: `${BASE_URL}/providers/ofx/`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.6,
     },
     {
       url: `${BASE_URL}/privacy/`,
@@ -94,6 +66,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  const providerPages: MetadataRoute.Sitemap = PROVIDER_IDS.map((id) => ({
+    url: `${BASE_URL}/providers/${id}/`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: id === 'wise' || id === 'remitly' || id === 'western-union' ? 0.7 : 0.6,
+  }));
+
   const corridorPages: MetadataRoute.Sitemap = corridors.map((corridor) => ({
     url: `${BASE_URL}/send-money/${corridor.slug}/`,
     lastModified: now,
@@ -101,5 +80,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: corridor.seo_volume === 'very_high' ? 0.95 : 0.9,
   }));
 
-  return [...staticPages, ...corridorPages];
+  return [...staticPages, ...providerPages, ...corridorPages];
 }

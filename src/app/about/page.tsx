@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'About SendMoneySmart — How We Compare Money Transfers | SendMoneySmart',
   description:
     'Learn how SendMoneySmart compares international money transfer providers. Who we are, how our calculations work, and our affiliate disclosure.',
-  alternates: { canonical: '/about/' },
+  alternates: { canonical: 'https://www.sendmoneysmart.com/about/' },
 };
 
 const aboutSchema = {

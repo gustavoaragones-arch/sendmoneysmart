@@ -40,6 +40,7 @@ export type Corridor = {
   typical_amount: number;
   typical_amount_label?: string;
   h1?: string;
+  unique_intro?: string;
   direct_answer?: string;
   meta_title?: string;
   meta_description?: string;

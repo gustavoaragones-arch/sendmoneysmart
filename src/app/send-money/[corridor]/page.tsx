@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       `Send Money ${corridor.from_country} to ${corridor.to_country} — Cheapest Rates 2026 | SendMoneySmart`,
     description: corridor.meta_description,
     alternates: {
-      canonical: `/send-money/${corridor.slug}/`,
+      canonical: `https://www.sendmoneysmart.com/send-money/${corridor.slug}/`,
     },
     openGraph: {
       title: corridor.meta_title ?? `Send Money ${corridor.from_country} to ${corridor.to_country} — Cheapest Rates 2026`,
@@ -115,6 +115,15 @@ export default async function CorridorPage({ params }: PageProps) {
           Last updated: {new Date().toLocaleDateString('en-CA', { month: 'long', year: 'numeric' })}
           {' '}· Rates are estimates for comparison purposes
         </p>
+
+        {corridor.unique_intro && (
+          <p
+            className="text-sm mb-6 leading-relaxed"
+            style={{ color: 'var(--text-muted)' }}
+          >
+            {corridor.unique_intro}
+          </p>
+        )}
 
         {/* Direct Answer — AEO primary weapon, cssSelector target for Speakable schema */}
         {corridor.direct_answer && (

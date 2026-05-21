@@ -223,7 +223,7 @@ export default function HowWeCalculatePage() {
 
         <div className="flex gap-4 flex-wrap">
           <Link
-            href="/about"
+            href="/about/"
             className="text-sm font-medium hover:underline"
             style={{ color: 'var(--accent)' }}
           >

@@ -43,7 +43,7 @@ export default function Header() {
             Compare
           </Link>
           <Link
-            href="/how-money-transfers-work"
+            href="/how-money-transfers-work/"
             className="transition-colors hover:text-white"
             style={{ color: 'var(--text-muted)' }}
           >
@@ -83,7 +83,7 @@ export default function Header() {
             Compare
           </Link>
           <Link
-            href="/how-money-transfers-work"
+            href="/how-money-transfers-work/"
             onClick={() => setOpen(false)}
             style={{ color: 'var(--text-muted)' }}
           >

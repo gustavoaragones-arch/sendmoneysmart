@@ -184,7 +184,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${content.fullName} Review 2026 — Fees, Rates & How It Works | SendMoneySmart`,
     description: `${content.fullName}: fees, exchange rates, transfer speed, pros and cons. Is it the cheapest option for your corridor?`,
-    alternates: { canonical: `/providers/${content.slug}/` },
+    alternates: { canonical: `https://www.sendmoneysmart.com/providers/${content.slug}/` },
   };
 }
 
@@ -224,7 +224,7 @@ export default async function ProviderPage({ params }: PageProps) {
       name: 'Albor Digital LLC',
       url: 'https://albor.digital',
     },
-    url: `https://www.sendmoneysmart.com/providers/${content.slug}`,
+    url: `https://www.sendmoneysmart.com/providers/${content.slug}/`,
   };
 
   const affiliateUrl = `${provider.affiliate_url}${provider.affiliate_params}provider-page`;
@@ -396,7 +396,7 @@ export default async function ProviderPage({ params }: PageProps) {
             .map((c, i) => (
               <span key={c.slug}>
                 {i > 0 && ' · '}
-                <Link href={`/send-money/${c.slug}`} className="hover:underline" style={{ color: 'var(--accent)' }}>
+                <Link href={`/send-money/${c.slug}/`} className="hover:underline" style={{ color: 'var(--accent)' }}>
                   {c.from_country} → {c.to_country}
                 </Link>
               </span>
