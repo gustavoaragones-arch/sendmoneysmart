@@ -36,7 +36,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       canonical: `https://www.sendmoneysmart.com/send-money/${corridor.slug}/`,
     },
     openGraph: {
-      title: corridor.meta_title ?? `Send Money ${corridor.from_country} to ${corridor.to_country} — Cheapest Rates 2026`,
+      title:
+        corridor.meta_title ??
+        `Send Money ${corridor.from_country} to ${corridor.to_country} — Cheapest Rates 2026 | SendMoneySmart`,
       description: corridor.meta_description,
       url: `https://www.sendmoneysmart.com/send-money/${corridor.slug}/`,
       siteName: 'SendMoneySmart',

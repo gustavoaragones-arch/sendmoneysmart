@@ -4,6 +4,14 @@ export const metadata: Metadata = {
   title: 'How International Money Transfers Work | SendMoneySmart',
   description: 'Learn how international money transfers work — exchange rates, FX margins, transfer fees, and how to find the cheapest way to send money abroad.',
   alternates: { canonical: 'https://www.sendmoneysmart.com/how-money-transfers-work/' },
+  openGraph: {
+    title: 'How International Money Transfers Work | SendMoneySmart',
+    description:
+      'Learn how international money transfers work — exchange rates, FX margins, transfer fees, and how to find the cheapest way to send money abroad.',
+    url: 'https://www.sendmoneysmart.com/how-money-transfers-work/',
+    siteName: 'SendMoneySmart',
+    type: 'website',
+  },
 };
 
 const faqSchema = {

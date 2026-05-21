@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: 'Wise vs Remitly — Which Is Cheaper? (2026) | SendMoneySmart',
   description: 'Wise vs Remitly comparison for 2026. Which is cheaper, faster, and better for your corridor? Full fee breakdown, exchange rates, and verdict.',
   alternates: { canonical: 'https://www.sendmoneysmart.com/wise-vs-remitly/' },
+  openGraph: {
+    title: 'Wise vs Remitly — Which Is Cheaper? (2026) | SendMoneySmart',
+    description:
+      'Wise vs Remitly comparison for 2026. Which is cheaper, faster, and better for your corridor? Full fee breakdown, exchange rates, and verdict.',
+    url: 'https://www.sendmoneysmart.com/wise-vs-remitly/',
+    siteName: 'SendMoneySmart',
+    type: 'website',
+  },
 };
 
 const faqSchema = {

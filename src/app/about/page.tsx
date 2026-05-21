@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   description:
     'Learn how SendMoneySmart compares international money transfer providers. Who we are, how our calculations work, and our affiliate disclosure.',
   alternates: { canonical: 'https://www.sendmoneysmart.com/about/' },
+  openGraph: {
+    title: 'About SendMoneySmart — How We Compare Money Transfers | SendMoneySmart',
+    description:
+      'Learn how SendMoneySmart compares international money transfer providers. Who we are, how our calculations work, and our affiliate disclosure.',
+    url: 'https://www.sendmoneysmart.com/about/',
+    siteName: 'SendMoneySmart',
+    type: 'website',
+  },
 };
 
 const aboutSchema = {
@@ -108,7 +116,7 @@ export default function AboutPage() {
           </div>
           <div className="mt-4">
             <Link
-              href="/how-we-calculate"
+              href="/how-we-calculate/"
               className="text-sm font-medium hover:underline"
               style={{ color: 'var(--accent)' }}
             >

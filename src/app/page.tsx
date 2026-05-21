@@ -9,6 +9,13 @@ export const metadata: Metadata = {
   title: 'SendMoneySmart — Find the Cheapest Way to Send Money Abroad',
   description: 'Compare Wise, Remitly, Western Union and more. Real rates, no fluff.',
   alternates: { canonical: 'https://www.sendmoneysmart.com/' },
+  openGraph: {
+    title: 'SendMoneySmart — Find the Cheapest Way to Send Money Abroad',
+    description: 'Compare Wise, Remitly, Western Union and more. Real rates, no fluff.',
+    url: 'https://www.sendmoneysmart.com/',
+    siteName: 'SendMoneySmart',
+    type: 'website',
+  },
 };
 
 export default function HomePage() {
@@ -64,7 +71,7 @@ export default function HomePage() {
             {corridors.map((corridor) => (
               <Link
                 key={corridor.slug}
-                href={`/send-money/${corridor.slug}`}
+                href={`/send-money/${corridor.slug}/`}
                 className="group rounded-xl border p-5 flex flex-col gap-3 transition-all hover:border-[var(--border-accent)] hover:-translate-y-0.5"
                 style={{ backgroundColor: 'var(--bg-surface)', borderColor: 'var(--border)' }}
               >

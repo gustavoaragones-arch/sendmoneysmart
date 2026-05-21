@@ -6,7 +6,7 @@ import Footer from '@/components/layout/Footer';
 export const metadata: Metadata = {
   title: {
     default: 'SendMoneySmart — Find the Cheapest Way to Send Money Abroad',
-    template: '%s | SendMoneySmart',
+    template: '%s',
   },
   description:
     'Compare Wise, Remitly, Western Union and more. Find the cheapest way to send money internationally. Real rates, no hidden fees.',

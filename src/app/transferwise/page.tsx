@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   description:
     'TransferWise rebranded to Wise in 2021. Compare current Wise fees vs Remitly, Western Union and more for sending money internationally.',
   alternates: { canonical: 'https://www.sendmoneysmart.com/transferwise/' },
+  openGraph: {
+    title: 'TransferWise Is Now Wise — Compare Rates 2026 | SendMoneySmart',
+    description:
+      'TransferWise rebranded to Wise in 2021. Compare current Wise fees vs Remitly, Western Union and more for sending money internationally.',
+    url: 'https://www.sendmoneysmart.com/transferwise/',
+    siteName: 'SendMoneySmart',
+    type: 'website',
+  },
 };
 
 const faqSchema = {

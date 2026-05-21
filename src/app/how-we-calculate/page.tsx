@@ -5,7 +5,15 @@ export const metadata: Metadata = {
   title: 'How We Calculate Money Transfer Costs | SendMoneySmart',
   description:
     'Our methodology for calculating the true cost of international money transfers. We include transfer fees AND exchange rate margins to show you the real total cost.',
-  alternates: { canonical: '/how-we-calculate/' },
+  alternates: { canonical: 'https://www.sendmoneysmart.com/how-we-calculate/' },
+  openGraph: {
+    title: 'How We Calculate Money Transfer Costs | SendMoneySmart',
+    description:
+      'Our methodology for calculating the true cost of international money transfers. We include transfer fees AND exchange rate margins to show you the real total cost.',
+    url: 'https://www.sendmoneysmart.com/how-we-calculate/',
+    siteName: 'SendMoneySmart',
+    type: 'website',
+  },
 };
 
 const methodologySchema = {

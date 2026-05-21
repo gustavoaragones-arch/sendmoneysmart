@@ -4,6 +4,13 @@ export const metadata: Metadata = {
   title: 'Disclaimer | SendMoneySmart',
   description: 'Disclaimer for SendMoneySmart. Rates shown are estimates for comparison purposes only.',
   alternates: { canonical: 'https://www.sendmoneysmart.com/disclaimer/' },
+  openGraph: {
+    title: 'Disclaimer | SendMoneySmart',
+    description: 'Disclaimer for SendMoneySmart. Rates shown are estimates for comparison purposes only.',
+    url: 'https://www.sendmoneysmart.com/disclaimer/',
+    siteName: 'SendMoneySmart',
+    type: 'website',
+  },
 };
 
 export default function DisclaimerPage() {

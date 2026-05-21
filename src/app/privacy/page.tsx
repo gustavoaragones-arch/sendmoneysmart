@@ -4,6 +4,13 @@ export const metadata: Metadata = {
   title: 'Privacy Policy | SendMoneySmart',
   description: 'Privacy Policy for SendMoneySmart, operated by Albor Digital LLC.',
   alternates: { canonical: 'https://www.sendmoneysmart.com/privacy/' },
+  openGraph: {
+    title: 'Privacy Policy | SendMoneySmart',
+    description: 'Privacy Policy for SendMoneySmart, operated by Albor Digital LLC.',
+    url: 'https://www.sendmoneysmart.com/privacy/',
+    siteName: 'SendMoneySmart',
+    type: 'website',
+  },
 };
 
 export default function PrivacyPage() {

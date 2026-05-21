@@ -181,10 +181,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const content = PROVIDER_CONTENT[id];
   if (!content) return {};
 
+  const pageTitle = `${content.fullName} Review 2026 — Fees, Rates & How It Works | SendMoneySmart`;
+  const pageUrl = `https://www.sendmoneysmart.com/providers/${content.slug}/`;
+
   return {
-    title: `${content.fullName} Review 2026 — Fees, Rates & How It Works | SendMoneySmart`,
+    title: pageTitle,
     description: `${content.fullName}: fees, exchange rates, transfer speed, pros and cons. Is it the cheapest option for your corridor?`,
-    alternates: { canonical: `https://www.sendmoneysmart.com/providers/${content.slug}/` },
+    alternates: { canonical: pageUrl },
+    openGraph: {
+      title: pageTitle,
+      description: `${content.fullName}: fees, exchange rates, transfer speed, pros and cons. Is it the cheapest option for your corridor?`,
+      url: pageUrl,
+      siteName: 'SendMoneySmart',
+      type: 'website',
+    },
   };
 }
 

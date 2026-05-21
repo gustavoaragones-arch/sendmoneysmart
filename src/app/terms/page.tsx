@@ -4,6 +4,13 @@ export const metadata: Metadata = {
   title: 'Terms of Use | SendMoneySmart',
   description: 'Terms of Service for SendMoneySmart, operated by Albor Digital LLC.',
   alternates: { canonical: 'https://www.sendmoneysmart.com/terms/' },
+  openGraph: {
+    title: 'Terms of Use | SendMoneySmart',
+    description: 'Terms of Service for SendMoneySmart, operated by Albor Digital LLC.',
+    url: 'https://www.sendmoneysmart.com/terms/',
+    siteName: 'SendMoneySmart',
+    type: 'website',
+  },
 };
 
 export default function TermsPage() {

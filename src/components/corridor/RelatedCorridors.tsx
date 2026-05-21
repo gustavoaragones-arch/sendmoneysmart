@@ -21,7 +21,7 @@ export default function RelatedCorridors({ slugs }: RelatedCorridorsProps) {
         return (
           <Link
             key={corridor.slug}
-            href={`/send-money/${corridor.slug}`}
+            href={`/send-money/${corridor.slug}/`}
             className="rounded-xl border p-4 flex items-center justify-between group transition-colors hover:border-[var(--border-accent)]"
             style={{ backgroundColor: 'var(--bg-surface)', borderColor: 'var(--border)' }}
           >
